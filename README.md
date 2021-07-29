@@ -80,7 +80,7 @@ See the alternate order?
  
     <config>
     ... 
-    <lib dir="${solr.install.dir:../../../..}/dist/" regex="SolrNVector-1.0-SNAPSHOT.jar" />
+    <lib dir="${solr.install.dir:../../../..}/dist/" regex="SolrStrataQuery-1.0-SNAPSHOT.jar" />
     ....
     <queryParser name="stratify" class="com.github.danrosher.solr.search.strata.StrataQParserPlugin"/>
     
